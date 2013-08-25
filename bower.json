@@ -1,7 +1,7 @@
 {
   "name": "strapboot",
-  "description": "Right-to-Left Bootstrap as an external css file",
-  "version": "0.0.1",
+  "description": "Right-to-Left Bootstrap, external css file",
+  "version": "0.0.2",
   "main": [ "bootstrap-rtl.css" ],
   "dependencies": {
     "bootstrap": ">2.3.2"

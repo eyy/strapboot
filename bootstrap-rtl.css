@@ -1,98 +1,101 @@
-body {
+.rtl {
     direction: rtl;
 }
-ul, ol {
+.rtl ul,
+.rtl ol {
     margin: 0 25px 10px 0;
 }
-ul.inline, ol.inline {
+.rtl ul.inline,
+.rtl ol.inline {
     margin-right: 0;
 }
-dd {
+.rtl dd {
     margin-right: 10px;
 }
-.dl-horizontal dt {
+.rtl .dl-horizontal dt {
     float: right;
 }
-.dl-horizontal dd {
+.rtl .dl-horizontal dd {
     margin-right: 180px;
 }
-code {
+.rtl code {
     direction: ltr;
 }
-.table th, .table td {
+.rtl .table th,
+.rtl .table td {
     text-align: right;
 }
-.table-bordered thead:first-child tr:first-child > th:first-child,
-.table-bordered tbody:first-child tr:first-child > td:first-child,
-.table-bordered tbody:first-child tr:first-child > th:first-child {
+.rtl .table-bordered thead:first-child tr:first-child > th:first-child,
+.rtl .table-bordered tbody:first-child tr:first-child > td:first-child,
+.rtl .table-bordered tbody:first-child tr:first-child > th:first-child {
     -webkit-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -moz-border-radius-topleft: 0;
     border-top-right-radius: 4px;
 }
-.table-bordered thead:last-child tr:last-child > th:first-child,
-.table-bordered tbody:last-child tr:last-child > td:first-child,
-.table-bordered tbody:last-child tr:last-child > th:first-child,
-.table-bordered tfoot:last-child tr:last-child > td:first-child,
-.table-bordered tfoot:last-child tr:last-child > th:first-child {
+.rtl .table-bordered thead:last-child tr:last-child > th:first-child,
+.rtl .table-bordered tbody:last-child tr:last-child > td:first-child,
+.rtl .table-bordered tbody:last-child tr:last-child > th:first-child,
+.rtl .table-bordered tfoot:last-child tr:last-child > td:first-child,
+.rtl .table-bordered tfoot:last-child tr:last-child > th:first-child {
     -webkit-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
     -moz-border-radius-bottomleft: 0;
     border-bottom-right-radius: 4px;
 }
-.radio input[type="radio"],
-.checkbox input[type="checkbox"] {
+.rtl .radio input[type="radio"],
+.rtl .checkbox input[type="checkbox"] {
     float: right;
     margin-right: -20px;
     margin-left: 0;
 }
-.form-search .radio input[type="radio"],
-.form-search .checkbox input[type="checkbox"],
-.form-inline .radio input[type="radio"],
-.form-inline .checkbox input[type="checkbox"] {
+.rtl .form-search .radio input[type="radio"],
+.rtl .form-search .checkbox input[type="checkbox"],
+.rtl .form-inline .radio input[type="radio"],
+.rtl .form-inline .checkbox input[type="checkbox"] {
     float: right;
     margin-right: 0;
     margin-left: 3px;
 }
-.form-horizontal .control-label {
+.rtl .form-horizontal .control-label {
     float: right;
     text-align: left;
 }
-.form-horizontal .controls {
+.rtl .form-horizontal .controls {
     margin-right: 180px;
     margin-left: 0;
 }
-.radio, .checkbox {
+.rtl .radio, .checkbox {
     padding-right: 20px;
     padding-left: 0;
 }
-.input-prepend .add-on,
-.input-prepend .btn {
+.rtl .input-prepend .add-on,
+.rtl .input-prepend .btn {
     margin-left: -1px;
     margin-right: 0;
 }
-.input-prepend .add-on:first-child,
-.input-prepend .btn:first-child {
+.rtl .input-prepend .add-on:first-child,
+.rtl .input-prepend .btn:first-child {
     border-radius: 0 4px 4px 0;
 }
-.input-prepend input,
-.input-prepend select,
-.input-prepend .uneditable-input {
+.rtl .input-prepend input,
+.rtl .input-prepend select,
+.rtl .input-prepend .uneditable-input {
     border-radius: 4px 0 0 4px;
 }
-.input-append input,
-.input-append select,
-.input-append .uneditable-input {
+.rtl .input-append input,
+.rtl .input-append select,
+.rtl .input-append .uneditable-input {
     border-radius: 0 4px 4px 0;
 }
-.input-append .add-on:last-child
-.input-append .btn:last-child,
-.input-append .btn-group:last-child > .dropdown-toggle {
+.rtl .input-append .add-on:last-child
+.rtl .input-append .btn:last-child,
+.rtl .input-append .btn-group:last-child > .dropdown-toggle {
     border-radius: 4px 0 0 4px;
 }
-.input-append .add-on,
-.input-append .btn,
-.input-append .btn-group {
+.rtl .input-append .add-on,
+.rtl .input-append .btn,
+.rtl .input-append .btn-group {
     margin-right: -1px;
     margin-left: 0;
 }
