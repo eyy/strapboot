@@ -6,6 +6,9 @@
   "dependencies": {
     "bootstrap": ">2.3.2"
   },
+  "ignore": [
+    "bootstrap-2.3.2"
+  ],
   "keywords": ["bootstrap", "rtl", "hebrew", "arabic", "bidi"],
   "license": "MIT"
 }
